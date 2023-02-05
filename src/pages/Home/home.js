@@ -6,18 +6,25 @@ import Service from "../../components/Service/Service";
 import Block1 from "../../components/Block/Block1";
 import Robot from '../../components/assets/images/ezgif.com-gif-maker.gif';
 import CourseList from "../../components/CourseList/CourseList";
+import Attc from "../../components/ATTC/Attc";
+import Block2 from "../../components/Block/Block2";
 // import Robot from '../../components/assets/images/KakaoTalk_20221110_162103879@2x.png';
-
+import train from '../../components/assets/images/disco11.png'
 
 function Home() {
 
 
   return (
     <>
-        <Main/>
-        <Service/>
-        <Block1 image={Robot}/>
-        <CourseList/>
+        <style.Body>
+            <Main/>
+            <Service/>
+            <Block1 image={Robot}/>
+            <CourseList/>
+            <Attc/>
+            <Block2 image={train}/>
+        </style.Body>
+        
     </>
   );
 }

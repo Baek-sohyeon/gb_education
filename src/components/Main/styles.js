@@ -6,7 +6,8 @@ export const Container = styled.div`
   position: relative;
   flex-direction: column;
   justify-content: center;
-  width: 100%;
+  width: 80%;
+  align-items: center;
 `;
 
 export const mainContainer = styled.div`
@@ -27,12 +28,11 @@ export const mainImg = styled.img`
 `;
 
 export const centerImg = styled.img`
-position: absolute;
-  width: 45%;
+  position: absolute;
+  width: 40%;
   z-index: 1;
   right: 0;
   max-width: 700px;
-  top: -30%;
   ${'' /* top: 75%;
   left: 50%; */}
   @media (max-width: 64em){

@@ -47,7 +47,6 @@ const Title = styled.p`
     text-transform: uppercase;
     font-size: 15px;
     font-weight: 500;
-    margin: 10px;
     text-align: center;
 `;
 
@@ -55,7 +54,6 @@ const Content = styled.p`
     text-transform: capitalize;
     font-size: 12px;
     font-weight: 300;
-    margin: 10px;
     text-align: center;
 
 

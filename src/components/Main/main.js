@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useContext } from "react";
 import { useNavigate } from "react-router-dom";
 import * as style from "./styles";
-import homeImg from '../../components/assets/images/복실이_7G_0000.png'
+import homeImg from '../../components/assets/images/복실이_7G_0000 1.png'
 import Button2 from "../Button/Button2";
 
 function Main() {
