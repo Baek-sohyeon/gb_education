@@ -74,7 +74,28 @@ const [click, setClick] = useState(false)
                 }>
                     Partner
                 </style.MenuBtn>
-            </style.Menu>
+
+                <style.menuHidden>
+                    <Button
+                        name={'Login'}
+                        color={'white'}
+                        background={'#55AABE'}
+                        onClick={() => {
+                            navigator("/login")
+                            setClick(!click)
+                        }}
+                    />
+                    <Button
+                        name={'Join'}
+                        color={'#55AABE'}
+                        background={'transparent'}
+                        onClick={() => {
+                            navigator("/join")
+                            setClick(!click)
+                        }}
+                    />
+            </style.menuHidden>                              
+        </style.Menu>
         
 
         <style.menuRight>

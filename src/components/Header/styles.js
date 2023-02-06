@@ -8,22 +8,23 @@ export const Header = styled.div`
   z-index: 3;
   align-items: center;
   ${'' /* position: absolute; */}
+  justify-content: space-around;
+@media (max-width: 64em){
   justify-content: space-between;
+  }
 `;
 
 export const Logo = styled.img`
   width: 50px;
   height: 50px;
   margin-right: 20px;
-  margin-left: 100px;
+  ${'' /* margin-left: 100px; */}
   background-repeat: no-repeat;
   background-size: contain;
   &:hover {
     cursor: pointer;
   }
-  @media (max-width: 64em){
-    display: none;
-  }
+
 `;
 
 export const LogoContainer = styled.div`
@@ -77,7 +78,19 @@ export const menuRight = styled.div`
   display: flex;
   align-items: center;
   height: 100%;
+    @media (max-width: 64em){
+        display: none;
+    }
 `;
+
+export const menuHidden = styled.div`
+  display: none;
+  align-items: center;
+    @media (max-width: 64em){
+        display: flex;
+    }
+`;
+
 
 export const menuLeft = styled.div`
   display: flex;
@@ -99,7 +112,7 @@ export const MenuBtn = styled.button`
   padding: 0 1rem;
   color: #00000088;
   &.active {
-    color: #484F72;
+    color: #55AABE;
     font-weight: 700;
   }
 
@@ -107,7 +120,7 @@ export const MenuBtn = styled.button`
     margin: 1rem 0;
   }
   &:hover {
-    color: #484F72;
+    color: #55AABE;
     font-weight: 700;
   }
 `;
@@ -115,8 +128,8 @@ export const MenuBtn = styled.button`
 export const HamburgerMenu = styled.span`
   width: ${props => props.click ? '2rem':'1.5rem'};
   height: 2px;
-  background: rgba(255,153,0,1);
-
+  background: #55AABE;
+  colro: #fff
   position: absolute;
   left: 50%;
   transform: ${props => props.click ? 'translateX(-50%) rotate(90deg)':'translateX(-50%) rotate(0)'};
@@ -137,19 +150,19 @@ export const HamburgerMenu = styled.span`
     width: ${props => props.click ? '1rem':'1.5rem'};
     height: 2px;
     right: ${props => props.click ? '-2px':'0'};
-  background: rgba(255,153,0,1);
+  background: #55AABE;
   position: absolute;
   }
 
   &::after{
     top: ${props => props.click ? '0.3rem':'0.5rem'};
-    background: rgba(255,153,0,1);
+    background: #55AABE;
     transform: ${props => props.click ? 'rotate(-40deg)':'rotate(0)'};
   }
 
   &::before{
     bottom: ${props => props.click ? '0.3rem':'0.5rem'};
-    background: rgba(255,153,0,1);
+    background: #55AABE;
     transform: ${props => props.click ? 'rotate(40deg)':'rotate(0)'};
 
   }

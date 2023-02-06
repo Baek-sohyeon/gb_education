@@ -9,9 +9,9 @@ export const Content = styled.div`
     white-space: nowrap;
     align-self: center;
 
-    @media (max-width: 64em){
+    ${'' /* @media (max-width: 64em){
     padding: 2rem 3rem;
-    flex-direction: column;
+    flex-direction: column; */}
 
     }
     @media (max-width: 18em){
@@ -36,12 +36,19 @@ export const row = styled.div`
 export const column = styled.div`
     display: flex;
     flex-direction: column;
+    @media (max-width: 32em){
+        display: none;
+    }
+
 `
 export const companyName = styled.div`
     color: rgba(106,106,106,1);;
     justify-content: flex-end;
     font-size: 15px;
     padding: 10px 10px 0px 10px;
+    @media (max-width: 32em){
+        font-size: 10px;
+    }
 `
 export const companyLoc = styled.p`
     color: rgba(106,106,106,1);
@@ -51,6 +58,7 @@ export const companyLoc = styled.p`
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+
 
 `
 export const company = styled.div`
@@ -63,6 +71,9 @@ export const Logo =  styled.div`
     font-size: 18px;
     ${'' /* font-weight: bold; */}
     color: rgba(106,106,106,1);
+    @media (max-width: 32em){
+        font-size: 10px;
+    }
 `
 export const copyright = styled.p`
     color: rgba(106,106,106,1);
@@ -78,6 +89,9 @@ export const MenuBtn = styled.button`
     margin: 0px;
     margin-bottom:10px;
     padding: 0px;
+    @media (max-width: 32em){
+        font-size: 5px;
+    }
 `
 
 
@@ -93,4 +107,7 @@ export const bottom = styled.div`
 export const head = styled.img`
     width: 100px;
     align-self: center;
+    @media (max-width: 32em){
+        width: 50px;
+    }
 `

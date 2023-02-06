@@ -8,6 +8,10 @@ export const CardContainer = styled.div`
   align-items: center;
   height: 250px;
   padding: 12px 0px;
+    @media (max-width: 32em){
+      flex-direction: column;
+      height: 100%;
+    }
 `;
 
 export const Content = styled.div`

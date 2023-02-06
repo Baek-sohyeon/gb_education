@@ -19,6 +19,12 @@ const ContactButton = styled.div`
   border: 2px solid ${(props) => props.color};
   color: ${(props) => props.color};
   background : ${(props) => props.background};
+    @media (max-width: 32em){
+      width: 100px;
+      font-size: 15px;
+      padding: 7px 5px;
+      margin-right: 0px;
+    }
     @media (max-width: 18em){
       width: 70px;
       font-size: 8px;

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import styled from "styled-components";
 
 const ContactButton = styled.div`
+  z-index: 1;
   width: 80px;
   height: 12px;
   white-space: nowrap;

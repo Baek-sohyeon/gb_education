@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import styled from "styled-components";
 
 const CardContainer = styled.div`
-    width: 18%;
+    width: 100%;
     height: 200px;
     border-radius: 20px;
     overflow: hidden;
@@ -11,6 +11,15 @@ const CardContainer = styled.div`
     &:hover {
         ${'' /* width: %; */}
         height: 250px;
+    }
+    @media (max-width: 32em){
+      ${'' /* height: 200px !important; */}
+      width: 80%;
+      height: 150px;
+        &:hover {
+        ${'' /* width: %; */}
+        height: 200px;
+        }
     }
 `;
 

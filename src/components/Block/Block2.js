@@ -21,6 +21,10 @@ const ImageBlock = styled.img`
     ${'' /* position: relative; */}
     ${'' /* object-position: left top; */}
     ${'' /* background: #77AAAD; */}
+    @media (max-width: 32em){
+      width: 100%;
+      border-radius: 0px;
+    }
 
 `;
 
@@ -37,16 +41,22 @@ const TextContainer = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    @media (max-width: 32em){
+      width: 100%;
+      border-radius: 0px;
+    }
 `;
 
 const Title = styled.p`
     font-size: 24px;
     font-weight: 600;
-    margin: 0
+    margin: 0;
+    z-index: 1;
 `;
 
 const Content = styled.p`
     font-size: 12px;
+    z-index: 1;
 `;
 
 const CenterImg = styled.img`
@@ -56,8 +66,10 @@ const CenterImg = styled.img`
   left: 0;
   top: -30%;
   max-width: 700px;
+  min-width: 500px;
   ${'' /* top: 75%;
   left: 50%; */}
+  z-index: 0;
   @media (max-width: 64em){
     width: 200px;
    }

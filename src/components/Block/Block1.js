@@ -20,6 +20,10 @@ const ImageBlock = styled.img`
     ${'' /* position: relative; */}
     ${'' /* object-position: left top; */}
     ${'' /* background: #77AAAD; */}
+    @media (max-width: 32em){
+      width: 100%;
+      border-radius: 0px;
+    }
 
 `;
 
@@ -36,6 +40,10 @@ const TextContainer = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    @media (max-width: 32em){
+      width: 100%;
+      border-radius: 0px;
+    }
 `;
 
 const Title = styled.p`
