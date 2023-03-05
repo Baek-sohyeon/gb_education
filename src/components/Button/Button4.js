@@ -2,29 +2,22 @@ import React, { useState } from "react";
 import styled from "styled-components";
 
 const ContactButton = styled.div`
-  width: 200px;
-  height: 20px;
+  z-index: 1;
+  height: 12px;
   white-space: nowrap;
-  padding: 10px 10px;
+  padding: 5px 10px;
  text-align: center;
   &:hover {
     cursor: pointer;
     
   }
-  font-size: 20px;
+  font-size: 12px;
   font-weight: 500;
-  line-height: 20px;
+  line-height: 14px;
   margin-right: 10px;
-  border-radius: 9px;
-  border: 2px solid ${(props) => props.color};
-  color: ${(props) => props.color};
-  background : ${(props) => props.background};
-    @media (max-width: 32em){
-      width: 100px;
-      font-size: 15px;
-      padding: 7px 5px;
-      margin-right: 0px;
-    }
+  border-radius: 99px;
+  color: black;
+  background : #C8CEF2;
     @media (max-width: 18em){
       width: 70px;
       font-size: 8px;
@@ -33,7 +26,7 @@ const ContactButton = styled.div`
     }
 `;
 
-const Button2 = (props) => {
+const Button4 = (props) => {
   return (
     <ContactButton {...props}>
         {props.name}
@@ -41,5 +34,5 @@ const Button2 = (props) => {
   );
 }
 
-export default Button2;
+export default Button4;
 

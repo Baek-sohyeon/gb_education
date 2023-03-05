@@ -8,7 +8,6 @@ import Robot from '../../components/assets/images/ezgif.com-gif-maker.gif';
 import CourseList from "../../components/CourseList/CourseList";
 import Attc from "../../components/ATTC/Attc";
 import Block2 from "../../components/Block/Block2";
-// import Robot from '../../components/assets/images/KakaoTalk_20221110_162103879@2x.png';
 import train from '../../components/assets/images/disco11.png'
 
 function Home() {
