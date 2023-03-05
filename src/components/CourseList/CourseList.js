@@ -21,7 +21,6 @@ function CourseList() {
     <>
       <style.CardContainer>
             <style.Content>
-            <Title1 korean={'메타버스 강의목록'} english={'Our Metaverse Courses'}/>
             <Swiper
               slidesPerView={4}
               spaceBetween={30}

@@ -9,6 +9,7 @@ import Reviews from "./pages/Reviews/reviews";
 import Community from "./pages/Community/community";
 import Courses from "./pages/Courses/courses";
 import Partner from "./pages/Partner/partner";
+import Lecture from "./pages/Lecture/lecture";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/community" element={<Community />} />
         <Route path="/courses" element={<Courses />} />
         <Route path="/partner" element={<Partner/>} />
+        <Route path="/lecture" element={<Lecture/>} />
 
         {/* <Route path="/contact" element={<Contact />} /> */}
 

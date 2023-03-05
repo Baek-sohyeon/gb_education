@@ -10,6 +10,8 @@ import zepeto from '../../components/assets/images/logo/zepeto.jpg';
 import roblox from '../../components/assets/images/logo/roblox.png';
 import Button4 from "../../components/Button/Button4";
 import Search from "../../components/Search/search";
+import Card1 from "../../components/Card/Card1";
+import CourseList from "../../components/CourseList/CourseList";
 
 
 
@@ -37,6 +39,7 @@ function Courses() {
               <Button4 name={'전문가'}/>
             </style.group>
             <Search/>
+            <CourseList/>
         </style.Body>
         
     </>

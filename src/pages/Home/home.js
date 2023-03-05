@@ -9,7 +9,7 @@ import CourseList from "../../components/CourseList/CourseList";
 import Attc from "../../components/ATTC/Attc";
 import Block2 from "../../components/Block/Block2";
 import train from '../../components/assets/images/disco11.png'
-
+import Title1 from "../../components/Title/Title1";
 function Home() {
 
 
@@ -19,6 +19,7 @@ function Home() {
             <Main/>
             <Service/>
             <Block1 image={Robot}/>
+            <Title1 korean={'메타버스 강의목록'} english={'Our Metaverse Courses'}/>
             <CourseList/>
             <Attc/>
             <Block2 image={train}/>

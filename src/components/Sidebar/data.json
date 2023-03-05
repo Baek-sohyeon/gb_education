@@ -1,0 +1,89 @@
+[
+    {
+        "title": "메타버스란 무엇인가?",
+        "childrens": [
+            {
+                "title": "메타버스의 정의",
+                "path": "/#/lecture/1"
+            },
+            {
+                "title": "더 샌드박스의 경쟁력",
+                "path": "/#/lecture/2"
+            }
+        ]
+    },
+    {
+        "title": "더 샌드박스의 기초지식",
+        "childrens": [
+            {
+                "title": "더 샌드박스의 시작",
+                "path": "/#/lecture/3"
+            },
+            {
+                "title": "더 샌드박스의 블럭체인",
+                "path": "/#/lecture/4"
+            },
+            {
+                "title": "더 샌드박스 크리에이터 생태계",
+                "path": "/#/lecture/5"
+            },
+            {
+                "title": "더 샌드박스 제작툴 소개",
+                "path": "/#/lecture/6"
+            },
+            {
+                "title": "더 샌드박스의 가상화폐 'SAND'란 무엇인가?",
+                "path": "/#/lecture/7"
+            },
+            {
+                "title": "더 샌드박스 랜드란 무엇인가?",
+                "path": "/#/lecture/8"
+            },
+            {
+                "title": "더 샌드박스 스테이킹에 대해",
+                "path": "/#/lecture/9"
+            }
+        ]
+    },
+    {
+        "title": "글로벌로 확장하는 더 샌드박스",
+        "childrens": [
+            {
+                "title": "더 샌드박스의 파트너",
+                "path": "/#/lecture/10"
+            },
+            {
+                "title": "더 샌드박스의 행보",
+                "path": "/#/lecture/11"
+            },
+            {
+                "title": "확장해가는 더 샌드박스의 교육 생태계",
+                "path": "/#/lecture/12"
+            },
+            {
+                "title": "게임메이커펀드란 무엇인가?",
+                "path": "/#/lecture/13"
+            },
+            {
+                "title": "게임메이커란 무엇인가?",
+                "path": "/#/lecture/14"
+            },
+            {
+                "title": "크리에이터 펀드란 무엇인가?",
+                "path": "/#/lecture/15"
+            },
+            {
+                "title": "더 샌드박스 앰배서더",
+                "path": "/#/lecture/16"
+            },
+            {
+                "title": "크리에이터 인터뷰",
+                "path": "/#/lecture/17"
+            },
+            {
+                "title": "메타버스 에이전시 소개",
+                "path": "/#/lecture/18"
+            }
+        ]
+    }
+]
